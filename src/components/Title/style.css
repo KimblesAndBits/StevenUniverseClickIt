@@ -1,0 +1,29 @@
+.title {
+    height: 100px;
+    padding-top: 25px;
+    width: 90%;
+    margin: auto;
+    color: #1d001e;
+}
+
+#message {
+    margin: 0;
+    font-size: 2rem;
+    padding: 0;
+    font-weight: bold;
+}
+
+#score-area {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.pink-wrap {
+    background: #ea91b5;
+}
+
+#game-name {
+    float: left;
+    font-size: 2rem;
+    font-weight: bold;
+}

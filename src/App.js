@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ClickCard from "./components/clickCards/index";
-import Wrapper from "./components/Wrapper/index"
+import Wrapper from "./components/Wrapper/index";
+import Title from "./components/Title/index";
 import './App.css';
 import characters from "./characters.json";
 
@@ -9,7 +10,8 @@ class App extends Component {
     characters: characters,
     score: 0,
     guesses: [],
-    guessMessage: ""
+    guessMessage: "",
+    highScore: 0
   }
 
   randomizeCards = () => {
@@ -19,21 +21,21 @@ class App extends Component {
   };
 
   handleGuess = (guessId) => {
-    console.log("Handling Cards");
       if (this.state.guesses.includes(guessId)) {
-        console.log("Wrong!");
         this.setState({
           guesses: [],
-          guessMessage: "You guessed wrong!",
+          guessMessage: "Sorry!",
           score: 0
         });
       } else {
-        console.log("YASSS!");
         this.setState({
           guesses: this.state.guesses.concat(guessId),
-          guessMessage: "You guessed Correctly!",
+          guessMessage: "Correct!",
           score: this.state.score + 1
         });
+        if (this.state.score + 1 >= this.state.highScore) {
+          this.setState({highScore: this.state.score + 1});
+        };
       };
       this.randomizeCards();
   };
@@ -41,6 +43,7 @@ class App extends Component {
     render() {
     return (
       <div className="App row">
+        <Title guessMessage={this.state.guessMessage} score={this.state.score} highScore={this.state.highScore} />
         <Wrapper>
           {this.state.characters.map(character => <ClickCard {...character} handleGuess={this.handleGuess} />)}
         </Wrapper>
