@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Crewniverse";
+  src: url("./assets/font/crewniverse_font-webfont.woff") format("woff");
+  src: url("./assets/font/crewniverse_font-webfont.woff2") format("woff2"),
+}
+
+* {
+  font-family: "Crewniverse";
+}
+
 .App {
   text-align: center;
 }
@@ -22,6 +32,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

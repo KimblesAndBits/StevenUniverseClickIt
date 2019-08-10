@@ -7,8 +7,8 @@ import "./style.css";
 function Title(props) {
     return (
         <div className="pink-wrap">
-            <div className="title">
-                <div id="game-name"><span>Clicky Game</span></div>
+            <div id="title">
+                <div id="game-name"><a href="/">Clicky Game</a></div>
                 <GuessNote message={props.guessMessage} />
                 <div id="score-area" style={{ float: "right" }}>
                     <Score score={props.score} />

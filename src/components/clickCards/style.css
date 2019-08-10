@@ -18,3 +18,7 @@
 .card > .card-body > img {
     width: 100% 
 }
+
+.card:hover {
+    box-shadow: 0 3px 6px rgb(66, 66, 66), 0 3px 6px rgb(17, 17, 17);
+}

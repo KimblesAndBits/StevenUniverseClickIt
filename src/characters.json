@@ -22,5 +22,53 @@
         "id": 4,
         "name": "Pearl",
         "image": "https://vignette.wikia.nocookie.net/steven-universe/images/3/38/CYM_Pearl_Request_by_RylerGamerDBS.png/revision/latest/scale-to-width-down/610?cb=20190502165900"
+    },
+    {
+        "key": 5,
+        "id": 5,
+        "name": "Amethyst",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/4/4b/Amethyst_CYM_Outfit.png/revision/latest/scale-to-width-down/700?cb=20190208061012"
+    },
+    {
+        "key": 6,
+        "id": 6,
+        "name": "Peridot",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/3/3b/Peridot_S6_Regen_By_TheOffColors.png/revision/latest/scale-to-width-down/524?cb=20190209185218"
+    },
+    {
+        "key": 7,
+        "id": 7,
+        "name": "Lapis Lazuli",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/c/c2/Lapis_S6_By_TheOffColors.png/revision/latest/scale-to-width-down/700?cb=20190209185429"
+    },
+    {
+        "key": 8,
+        "id": 8,
+        "name": "Connie",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/4/41/Connie_CYM_by_Luxenroar.png/revision/latest/scale-to-width-down/700?cb=20190125080241"
+    },
+    {
+        "key": 9,
+        "id": 9,
+        "name": "Sadie",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/7/7c/Sadie_Miller_Jacket_-Day_Palette-_By_TheOffColors.png/revision/latest/scale-to-width-down/700?cb=20180810012402"
+    },
+    {
+        "key": 10,
+        "id": 10,
+        "name": "Lars",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/7/7e/Laramiee.png/revision/latest/scale-to-width-down/473?cb=20190718180746"
+    },
+    {
+        "key": 11,
+        "id": 11,
+        "name": "Ruby",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/f/f6/Ruby_-_Weaponized.png/revision/latest/scale-to-width-down/700?cb=20190223220556"
+    },
+    {
+        "key": 12,
+        "id": 12,
+        "name": "Sapphire",
+        "image": "https://vignette.wikia.nocookie.net/steven-universe/images/6/64/Dan_Sapphy_ur_Freezies_with_Gem.png/revision/latest/scale-to-width-down/699?cb=20190223221703"
     }
 ]
