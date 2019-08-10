@@ -1,20 +1,24 @@
 [
     {
+        "key": 1,
         "id": 1,
         "name": "Steven",
         "image": "https://vignette.wikia.nocookie.net/steven-universe/images/f/f0/Steven_Shield_WD.png/revision/latest/scale-to-width-down/700?cb=20190628032322"
     },
     {
+        "key": 2,
         "id": 2,
         "name": "Greg",
         "image": "https://vignette.wikia.nocookie.net/steven-universe/images/9/92/Greg_PantsCut.png/revision/latest/scale-to-width-down/700?cb=20150622153117"
     },
     {
+        "key": 3,
         "id": 3,
         "name": "Garnet",
         "image": "https://vignette.wikia.nocookie.net/steven-universe/images/c/cf/Garnet-NewGen_2.png/revision/latest/scale-to-width-down/574?cb=20190208021043"
     },
     {
+        "key": 4,
         "id": 4,
         "name": "Pearl",
         "image": "https://vignette.wikia.nocookie.net/steven-universe/images/3/38/CYM_Pearl_Request_by_RylerGamerDBS.png/revision/latest/scale-to-width-down/610?cb=20190502165900"
