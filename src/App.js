@@ -21,31 +21,33 @@ class App extends Component {
   };
 
   handleGuess = (guessId) => {
-      if (this.state.guesses.includes(guessId)) {
-        this.setState({
-          guesses: [],
-          guessMessage: "Sorry!",
-          score: 0
-        });
-      } else {
-        this.setState({
-          guesses: this.state.guesses.concat(guessId),
-          guessMessage: "Correct!",
-          score: this.state.score + 1
-        });
-        if (this.state.score + 1 >= this.state.highScore) {
-          this.setState({highScore: this.state.score + 1});
-        };
+    if (this.state.guesses.includes(guessId)) {
+      this.setState({
+        guesses: [],
+        guessMessage: "Sorry!",
+        score: 0
+      });
+    } else {
+      this.setState({
+        guesses: this.state.guesses.concat(guessId),
+        guessMessage: "Correct!",
+        score: this.state.score + 1
+      });
+      if (this.state.score + 1 >= this.state.highScore) {
+        this.setState({ highScore: this.state.score + 1 });
       };
-      this.randomizeCards();
+    };
+    this.randomizeCards();
   };
 
-    render() {
+  render() {
     return (
       <div className="App row">
         <Title guessMessage={this.state.guessMessage} score={this.state.score} highScore={this.state.highScore} />
         <Wrapper>
-          {this.state.characters.map(character => <ClickCard {...character} handleGuess={this.handleGuess} />)}
+          <div id="card-area">
+            {this.state.characters.map(character => <ClickCard {...character} handleGuess={this.handleGuess} />)}
+          </div>
         </Wrapper>
       </div>
     );
