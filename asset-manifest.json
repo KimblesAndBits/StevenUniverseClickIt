@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clicky-game/static/css/main.f844a74c.chunk.css",
+    "main.js": "/clicky-game/static/js/main.372cb00a.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.372cb00a.chunk.js.map",
+    "runtime~main.js": "/clicky-game/static/js/runtime~main.27874bd3.js",
+    "runtime~main.js.map": "/clicky-game/static/js/runtime~main.27874bd3.js.map",
+    "static/js/2.901827b4.chunk.js": "/clicky-game/static/js/2.901827b4.chunk.js",
+    "static/js/2.901827b4.chunk.js.map": "/clicky-game/static/js/2.901827b4.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.5c0ce31170a6731a9938a8906494a384.js": "/clicky-game/precache-manifest.5c0ce31170a6731a9938a8906494a384.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.f844a74c.chunk.css.map": "/clicky-game/static/css/main.f844a74c.chunk.css.map",
+    "static/media/App.css": "/clicky-game/static/media/crewniverse_font-webfont.f093e442.woff"
+  }
+}
